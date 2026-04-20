@@ -110,7 +110,7 @@ const Grow = dt=>{
    ,Chal32Base:1
    ,SinceBought:0
    ,SinceBM0etcUnlock:0
-   ,MainNumber:4
+   ,MainNumber:10000000000000000000000000
    ,MainNumberEver:4
    ,BMSStage:0
    ,BM0etc:[[0,0,0]]
