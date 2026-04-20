@@ -90,7 +90,7 @@ const Grow = dt=>{
 ,InitialData = ()=>({
    ExportBox:false
    ,ExportContent:''
-   ,UpdateInterval:62
+   ,UpdateInterval:0.1
    ,AutoSave:10000
    ,NumberBase:10
    ,Precision:4
