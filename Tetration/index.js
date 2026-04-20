@@ -710,7 +710,7 @@ const BM0etcText = (x,n)=>LessQ(x,14)?'(0)'.repeat(x)+'['+showInt(n)+']':'(0)...
 }
 ,Loop = ()=>{
    setTimeout(Loop,v.UpdateInterval);
-   var dt=(Date.now()-Time.LastUpdate)*0.001;
+   var dt=(Date.now()-Time.LastUpdate)*0.1;
    Time.LastUpdate=Date.now();
    Grow(dt);
    if(v.AutoSave&&Time.LastUpdate-LastSave>=v.AutoSave){
